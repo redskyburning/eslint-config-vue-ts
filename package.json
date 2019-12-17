@@ -2,7 +2,7 @@
   "name": "@redskyburning/eslint-config-vue-ts",
   "version": "0.1.0",
   "description": "An eslint configuration for Vue and Typescript",
-  "main": "index.js",
+  "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "@vue/eslint-config-standard": "^4.0.0",
-    "@vue/eslint-config-typescript": "^4.0.0"
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "eslint-plugin-vue": "^5.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
   },
   "peerDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-plugin-vue": "^5.0.0"
+    "eslint": "^5.16.0"
   }
 }
