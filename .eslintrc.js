@@ -28,6 +28,7 @@ module.exports = {
 			'alignAttributesVertically': true,
 			'ignores': [],
 		}],
+		'operator-linebreak': 'off',
 	},
 	parserOptions: {
 		parser: '@typescript-eslint/parser',
