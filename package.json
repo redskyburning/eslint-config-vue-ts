@@ -1,6 +1,6 @@
 {
   "name": "@redskyburning/eslint-config-vue-ts",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "An eslint configuration for Vue and Typescript",
   "main": "index.js",
   "scripts": {
