@@ -25,4 +25,7 @@ module.exports = {
 		'operator-linebreak': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
 	},
+	parserOptions: {
+		parser: '@typescript-eslint/parser',
+	},
 };
