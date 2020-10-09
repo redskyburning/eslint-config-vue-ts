@@ -1,8 +1,8 @@
 {
   "name": "@redskyburning/eslint-config-vue-ts",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "An eslint configuration for Vue and Typescript",
-  "main": ".eslintrc.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
