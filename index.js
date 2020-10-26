@@ -9,6 +9,9 @@ module.exports = {
 		'@vue/standard',
 		'@vue/typescript',
 	],
+	plugins: [
+		'import',
+	],
 	rules: {
 		'indent': ['warn', 'tab', {
 			'SwitchCase': 1,
@@ -28,6 +31,14 @@ module.exports = {
 		}],
 		'operator-linebreak': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
+		'@typescript-eslint/ban-ts-ignore': 'warn',
+		'import/order': ['error', {
+			'newlines-between': 'always',
+			'alphabetize': {
+				'order': 'asc',
+				'caseInsensitive': true
+			},
+		}],
 	},
 	parserOptions: {
 		parser: '@typescript-eslint/parser',
