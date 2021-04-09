@@ -31,7 +31,7 @@ module.exports = {
 		}],
 		'operator-linebreak': 'off',
 		'no-mixed-spaces-and-tabs': 'off',
-		'@typescript-eslint/ban-ts-ignore': 'warn',
+		'@typescript-eslint/ban-ts-comment': 'error',
 		'import/order': ['error', {
 			'newlines-between': 'always',
 			'alphabetize': {
